@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV - Dr. Zahra Nazari</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@300;400;700&display=swap"
+    rel="stylesheet" />
+
+  <style>
+    /* Base styles for body */
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Montserrat', sans-serif;
+        position: relative;
+        min-height: 100vh;
+        z-index: 0;
+        background: linear-gradient(to bottom right, #e6f4ea, #b2d8c5);
+    }
+    /* Dark overlay over background for contrast */
+    body::before {
+        content: '';
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(33, 72, 55, 0.4);
+        z-index: -1;
+    }
+    .top-container, .middle-container {
+        text-align: center;
+    }
+    h1 {
+        margin: 0 auto;
+        width: 10%;
+        font-family: 'Sacramento', cursive;
+        font-size: 5.6rem;
+        color: #F1C40F;
+    }
+    .doctor-name {
+        display: inline;
+        font-size: 2.5rem;
+        font-family: 'Montserrat', sans-serif;
+        color: #eddd2e;
+    }
+    h2 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.5rem;
+        color: #F1C40F;
+        font-weight: normal;
+    }
+    h3 {
+        font-family: 'Montserrat', sans-serif;
+        color: #F1C40F;
+    }
+    a {
+        color: #11999E;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    /* Section header style with image and title */
+    .section-header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 50px;
+        color: #11999E;
+    }
+    .section-header img {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        border: 2px solid #4e2307;
+    }
+    ul {
+        text-align: left;
+        max-width: 700px;
+        margin: 0 auto;
+    }
+    hr {
+        width: 60%;
+        margin: 50px auto;
+        border: 1px solid #b6bf66;
+    }
+    footer {
+        background-color: #e89612;
+        color: white;
+        padding: 10px;
+        text-align: center;
+    }
+    footer a {
+        color: white;
+    }
+    footer a:hover {
+        text-decoration: underline;
+    }
+
+    .bottom-container {
+        padding: 20px;
+        background-color: #095211;
+        color: #c1df3b;
+        text-align: center;
+    }
+    /* Sticky navigation bar at top */
+    .main-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.4);
+        padding: 10px 40px;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+    }
+    .logo img {
+        height: 50px;
+    }
+    /* Navigation bar styling */
+    .navbar ul {
+        list-style: none;
+        display: flex;
+        gap: 30px;
+        margin: 0;
+        padding: 0;
+    }
+    .navbar a {
+        color: #F1C40F;
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+    }
+    .navbar a:hover {
+        text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navigation header with logo and links -->
+  <header class="main-header">
+    <div class="logo">
+      <img src="viona clinic.png" alt="Logo" />
+    </div>
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="doctors.html">Doctors</a></li>
+        <li><a href="appointments.html">Appointments</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- Top section with name and subtitle -->
+  <div class="top-container">
+    <h1 class="doctor-name">Dr. Zahra Nazari</h1>
+    <h2>General Internal Medicine | Researcher | Medical Graphic Designer</h2>
+  </div>
+  <div class="middle-container">
+    <!-- About Me section -->
+    <div class="section-header">
+      <img src="about me icon.png" alt="About Icon">
+      <h2>About Me</h2>
+    </div>
+    <p>I am a general internal medicine doctor with strong interests in research and health communication through visual design. I have contributed to various studies across neurology, oncology, women's health, and sleep disorders. I combine clinical knowledge with graphic design to create accessible educational content.</p>
+    <hr />
+    <!-- Education section -->
+    <div class="section-header">
+      <img src="education icon.jpg" alt="Education Icon">
+      <h2>Education</h2>
+    </div>
+        <ul>
+            <li><strong>2016–2022:</strong> M.D., Khatam-al Nabieen University, Kabul, Afghanistan. GPA: 4</li>
+            <li><strong>2015:</strong> 12th Grade, Iranian Private High School, Sharjah, UAE. GPA: 4</li>
+        </ul>
+    <hr />
+    <!-- Research section -->
+    <div class="section-header">
+      <img src="research icon.png" alt="Research Icon">
+      <h2>Research & Publications</h2>
+    </div>
+    <h3>Peer-reviewed Articles</h3>
+    <ul>
+        <li>Alami K, Nazari N, Bayat R, et al. *Cognitive Effects of Almond Consumption*. Nutrition and Dietary Supplements. 2024;16:105-128. <a href="https://doi.org/10.2147/NDS.S469179">DOI</a></li>
+        <li>Nazari Z, et al. *Infertility and Hyperprolactinemia: A Case Report*. Kavosh Journal (Accepted).</li>
+    </ul>
+    <h3>Conferences</h3>
+    <ul>
+        <li>*Almonds mitigate cadmium-induced memory impairment*. 13th Neuroscience Congress, Tehran, Iran (Poster)</li>
+    </ul>
+    <h3>Books</h3>
+    <ul>
+        <li>Specialty Exam Preparation Book – According to the Ministry of Public Health Entrance Exam Reference - (1399–1400)</li>
+    </ul>
+    <hr />
+    </section>
+<!-- تجربیات آکادمیک و تخصصی -->
+    <section>
+          <h2>🥼🧪 Academic & Professional Experience</h2>
+                <ul>
+                    <li>Teaching Assistant & Mentor at KNERI (Since 2024)</li>
+                    <li>Workshop Instructor: Review Articles, Case Reports (Since 2024)</li>
+                    <li>Graphic & Web Designer for Academic Networks (2021–2024)</li>
+                    <li>Research Group Leader (Since 2022)</li>
+                </ul>
+    </section>
+    <hr />
+<!-- تجربیات -->
+    <section>
+        <h2>✍️👩‍🏫 Experiences</h2>
+            <ul>
+                <li><strong>Since 2024:</strong> Teacher assistant at Kavosh Non-profit Educational-Research Institute, Kabul, Afghanistan</li>
+                <li><strong>Since 2024:</strong> Mentor of workshops for writing review articles, questionnaire research, and case reports at Kavosh Non-profit Educational-Research Institute, Kabul, Afghanistan</li>
+                <li><strong>Since 2023:</strong> Graphic designing for Kavosh Non-profit Educational-Research Institute</li>
+                <li><strong>Since 2022:</strong> Managing student research groups</li>
+                <li><strong>2023/09/25 - 2023/10/25:</strong> Web designing for a network team in Telegram</li>
+                <li><strong>2021-2022:</strong> Graphic designing for a network team in Instagram</li>
+            </ul>
+    </section>
+    <hr />
+<!-- دستاوردها و قدردانی ها -->
+    <section>
+        <h2>🏆 Honors and Awards</h2>
+        <ul>
+            <li>Certificate of Appreciation from Kavosh Educational-Research Institute for outstanding dedication and teamwork, Kabul, Afghanistan, 2024</li>
+            <li>Leadership of the student group for research at Neuroscience Research Center, Kavosh Non-profit Educational-Research Institute (KNERI), Kabul, Afghanistan</li>
+            <li>Graduated with distinction in M.D. program, Khatam-al Nabieen University, Kabul, Afghanistan, 2020</li>
+            <li>Certificate of Appreciation from the Meshrano Jirga (House of Elders), National Assembly of Afghanistan, presented by the Chairperson of the Women's Affairs and Civil Society Commission, in recognition of outstanding contributions to scientific research and academic excellence, Kabul, Afghanistan</li>
+            <li>Certificate of Appreciation for ranking second overall in the Faculty of Curative Medicine at Khatam-al Nabieen University, Kabul, Afghanistan, 2016</li>
+        </ul>
+    </section>
+    <hr />
+    <!-- Skills section (currently commented out) -->
+    <!--
+    <div class="section-header">
+      <img src="images/skills.png" alt="Skills Icon">
+      <h2>Technical & Creative Skills</h2>
+    </div>
+    <ul>
+      <li>Medical writing & case reporting</li>
+      ...
+    </ul>
+    <hr />
+    -->
+    <!-- Contact section -->
+    <div class="section-header">
+      <img src="contact icon.png" alt="Contact Icon">
+      <h2>Contact</h2>
+    </div>
+    <p>Email: zahranazari@example.com</p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/zahranazari" target="_blank">zahranazari</a></p>
+    <p>Website: <a href="https://zahranazari607.github.io/Viona-Clinic/">Viona Clinic</a></p>
+  </div>
+  <!-- Footer -->
+  <div class="bottom-container">
+    <p>© 2025 Dr. Zahra Nazari</p>
+  </div>
+</body>
+</html>

@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.background{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(neuron\ pathway.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    width: 85%;
+    padding: 35px 0;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height: 5px;
+    width: 0;
+    background: #008f33;
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+    transition: 1s;
+}
+.navbar ul li:hover:after{
+    width: 100%;
+}
+.content{
+    width: 100%;
+    color: greenyellow;
+    position: absolute;
+    top: 55%;
+    text-align: center;
+    transform: translateY(-50%);
+}
+.content h1{
+    font-size: 60px;
+    margin-top: 80px;
+}
+.content p{
+    margin: 20px auto;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: cursive;
+}
+button{
+    width: 200px;
+    padding: 15px 0px;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #008f33;
+    color: lightgreen;
+    background: transparent;
+    cursor: pointer;
+    position: relative;
+}
+span{
+    background: #008f33;
+    width: 0;
+    height: 100%;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 1s;
+}
+button:hover span{
+    width: 100%;
+}
+button:hover{
+    border: none;
+}
+/* برای اینکه محتوا در وسط قرار گیرد */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* قرار گرفتن محتوا به صورت عمودی */
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4; /* رنگ پس‌زمینه */
+  }
+  
+  /* استایل لینک اینستاگرام */
+  .instagram-link {
+    display: inline-flex;
+    align-items: center;
+    vertical-align: middle;
+    color: inherit; /* رنگ لینک به رنگ متن مادر */
+    text-decoration: none; /* حذف خط زیر لینک */
+  }
+  
+  /* استایل آیکون اینستاگرام */
+  .instagram-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+  }
+  
+  /* استایل تگ‌ها */
+  footer p {
+    margin: 5px 0; /* فاصله مناسب بین پاراگراف‌ها */
+  }
+  
+  footer a {
+    color: #0077b5; /* رنگ لینک */
+  }
+  
+  footer a:hover {
+    color: #005582; /* تغییر رنگ لینک در حالت hover */
+  }
